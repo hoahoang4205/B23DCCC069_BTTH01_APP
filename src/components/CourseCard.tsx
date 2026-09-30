@@ -1,10 +1,9 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import Icon from './Icon';
-import { IconName } from '../assets/images';
-import { SHADOW } from '../theme';
+import { IMAGES } from '../assets/images';
+import { COLORS, SHADOW } from '../theme';
 import { Course } from '../types';
-import { useTheme } from '../context/ThemeContext';
 
 interface Props {
   course: Course;
